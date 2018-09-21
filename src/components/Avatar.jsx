@@ -1,12 +1,11 @@
 import React from 'react';
-import logo40 from './../images/logo40.jpg';
-import logo24 from './../images/logo24.jpg';
+import rosto_aline from './../images/aline_avatar.png';
 
 const Avatar = (props) => (
   <div className={`c-avatar ${props.modifierClasses}`}>
-    <img 
-      src={(props.modifierClasses === 'c-avatar--as-author') ? logo24 : logo40} 
-      alt="greglobinski.com"
+    <img
+      src={rosto_aline}
+      alt="alinemarius.com.br"
     />
   </div>
 )
